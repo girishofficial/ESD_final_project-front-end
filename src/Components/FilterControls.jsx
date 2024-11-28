@@ -41,13 +41,13 @@ const FilterControls = ({
       >
         <option value="all">All</option>
         <option 
-          value="DataScience" 
+          value="Data Science" 
           disabled={isSpecializationDisabled("DataScience")}
         >
           Data Science
         </option>
         <option 
-          value="ComputerScience" 
+          value="Computer Science" 
           disabled={isSpecializationDisabled("ComputerScience")}
         >
           Computer Science
