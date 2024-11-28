@@ -1,0 +1,16 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1507679799987-c73779587ccf');
+    background-size: cover;
+}
+
+.container {
+    height: 100%;
+}

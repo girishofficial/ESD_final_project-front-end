@@ -1,0 +1,11 @@
+.filters{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    gap: 20px;
+}
+
+.logout{
+   position: absolute;
+   right: 35px;
+}

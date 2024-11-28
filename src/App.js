@@ -1,13 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Login from './Components/Login/Login';
-import Dashboard from './Components/Dashboard/Dashboard';
+import Login from './pages/Login';
+import Dashboard from './pages/Dashboard';
 
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import PrivateRoute from './utils/PrivateRoute';
 
 const onLoginSuccess = (data) => {
   console.log("Login successful:", data);
